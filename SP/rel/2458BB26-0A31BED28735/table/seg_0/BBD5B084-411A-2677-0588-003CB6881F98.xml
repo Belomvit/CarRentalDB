@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBD5B084-411A-2677-0588-003CB6881F98" name="Garaz">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>2715166E-B140-C0C7-07AE-5EFEF804A1E8</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Garage_ID" id="8C5ED14E-E36A-1B9E-7E4C-5870968066AE">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Volne_mista" id="3557F486-A4CC-F41D-6BB1-EF8B33E8EC44">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>D9FD02AB-114B-C17B-3D59-95760B82E416</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Oddeleni_Adresa" id="DCF93268-3BDB-B851-E2BA-FF2978147693">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>E6117C25-6D96-C83E-4221-9A57CC3D88DC</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="797E9C66-9B4A-C2B1-E66D-2407C0285CFE" referredColumn="E5F2B01F-5B8F-5221-52B3-B0AAB058FB14"/>
+</associations>
+</Column>
+<Column name="Adresa_garaze" id="94A04F6A-43CE-FAD6-B1A2-B6837A0B1D1D">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:27:03 UTC</createdTime>
+<generatorID>FFA9204E-C59C-5177-9272-EB4113C706DE</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D95DBA8-708B-63F9-6218-AC521A6DBB14" name="Garaz_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8C5ED14E-E36A-1B9E-7E4C-5870968066AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7BF1717-78D7-BB5C-C9A3-DEA700466137" name="Garaz_Adresa_garaze_UN">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:27:03 UTC</createdTime>
+<generatorID>A4D9D4E4-73E4-60A0-F873-D539F7D72B4A</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94A04F6A-43CE-FAD6-B1A2-B6837A0B1D1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="182F1C14-DDE0-2109-ECFD-E8B8436787CD" name="Garage_Oddeleni_FK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<generatorID>BF8E30BB-EBD1-051A-612F-C22A316A7C0D</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF93268-3BDB-B851-E2BA-FF2978147693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28DF6781-34D9-1CF8-083E-18241CB54BD0" name="Garaz_Oddeleni">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>28AABAEE-24F3-3CC7-530F-6F811EFCA5BB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

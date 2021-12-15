@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1247FF46-3168-B18B-5756-2D6C43B1E518" name="Zamestnanec">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>826B5ABE-326E-DB56-3995-933812525319</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RC" id="B708047C-0A61-19F1-8606-9704DA1320EC">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>A9364736-F936-EA6E-6882-F6E7FA0A3D9F</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jmeno" id="5910C4D7-90A9-60B9-5592-955477FAD15C">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>05B855FB-BFBF-B362-15C0-37EFD8C7002A</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prijmeni" id="288BB925-21ED-B355-3A6D-C6C4F26878BA">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>A3C18332-FA67-8881-919D-34F548D3A64B</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funkce" id="B7810D34-380F-3E95-2782-01892DEA8E4B">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>1C0865F8-3662-BD14-1042-2B626C98E7F9</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Oddeleni_Adresa_oddeleni" id="6C944BF1-2F1D-F970-F6DA-FB53F5C87DB6">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>2580B9DA-1DC5-B9D7-7E70-05D6BAC969D6</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E023930-B3D8-C8FC-D3F1-C0EEAD7ACB20" referredColumn="E5F2B01F-5B8F-5221-52B3-B0AAB058FB14"/>
+</associations>
+</Column>
+<Column name="Objednavka_Objednavka_ID" id="B5634B38-3A4C-88BB-91DE-33E84A57FF23">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1CD6EBD-62BB-0AA0-62D0-DB8483994734" referredColumn="605100C4-673C-A623-14F5-A3CE07178575"/>
+</associations>
+</Column>
+<Column name="Garaz_Adresa_garaze" id="9EBC6FBD-77B5-62B8-077E-F0FB62D72FE6">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:27:03 UTC</createdTime>
+<generatorID>020BD053-AE51-D657-5439-ED275D95AEB3</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD1512CD-C204-C2EF-C6D7-CA7C5C0101F2" referredColumn="94A04F6A-43CE-FAD6-B1A2-B6837A0B1D1D"/>
+</associations>
+</Column>
+<Column name="Uzitek" id="0FE815FC-7C02-6ECF-0884-7CD0EE6C5A8E">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:27:03 UTC</createdTime>
+<generatorID>02840466-0F05-61C7-ACD8-6D6D74CC3A6A</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_garaze" id="9BC439E6-6C40-A82C-73EE-FFBAAE744EDF">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 00:58:35 UTC</createdTime>
+<generatorID>B724630C-4C11-F3A3-87FA-76F799307CFB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Objednavka_Objednavka_ID1" id="19F912F9-D90B-8E60-73B5-333B62F411C4">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 00:58:35 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86BAF09C-407A-DF1F-314F-9BA5B0763968" name="Zamestnanec_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>E5036E6E-7F75-87A3-4F06-4BAD8A36746C</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B708047C-0A61-19F1-8606-9704DA1320EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7597272-AECF-2BA3-1A7A-23661C94B660" name="Zamestnanec__IDX">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FD760BAC-7B5A-1378-47BA-CC5C9B6DE531</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B5634B38-3A4C-88BB-91DE-33E84A57FF23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="759BC68E-A252-74B4-F66E-D6B5F3C13CF4" name="Zamestnanec__IDX">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 00:58:35 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3F6835D3-CB46-0577-0EEC-FC4B2E77421B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="19F912F9-D90B-8E60-73B5-333B62F411C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC249864-5A5C-3D8D-9210-3E50B15BAFDD" name="Zamestnanec_Oddeleni_FK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<generatorID>0BCBAF31-5FB2-7F49-3ED1-FD49FF26C921</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C944BF1-2F1D-F970-F6DA-FB53F5C87DB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F23AA54-7210-8E9C-FB6B-CEDF33AF6085" name="Zamestnanec_Garaz_FK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:27:03 UTC</createdTime>
+<generatorID>690ACDC8-49A8-A32A-1BE3-EB45CF5866DB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EBC6FBD-77B5-62B8-077E-F0FB62D72FE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="002663F2-BE12-996A-6501-6775AD364F6B" name="Zamestnanec_Objednavka_FK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 23:53:35 UTC</createdTime>
+<generatorID>FD760BAC-7B5A-1378-47BA-CC5C9B6DE531</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5634B38-3A4C-88BB-91DE-33E84A57FF23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42F1C3CB-7D77-54EC-BE1F-476CCB0CBC71" name="Zamestnanec_pracujev1">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>C63395C4-1116-FD42-05AE-FFF768C01DF0</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Garaz Oddeleni" directorySegmentName="seg_0" id="28AABAEE-24F3-3CC7-530F-6F811EFCA5BB">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:04:54 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<sourcePk>282D11A8-43E8-792E-7C74-75CBE414F543</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ma_garaze</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>45065395-87C1-1067-3898-FD765456D8C9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2715166E-B140-C0C7-07AE-5EFEF804A1E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="826B5ABE-326E-DB56-3995-933812525319" name="Zamestnanec">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 19:42:57 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RC" id="A9364736-F936-EA6E-6882-F6E7FA0A3D9F">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:05:53 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmeno" id="05B855FB-BFBF-B362-15C0-37EFD8C7002A">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:06:12 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prijmeni" id="A3C18332-FA67-8881-919D-34F548D3A64B">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:06:35 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Funkce" id="1C0865F8-3662-BD14-1042-2B626C98E7F9">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:07:51 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Uzitek" id="02840466-0F05-61C7-ACD8-6D6D74CC3A6A">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:23:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa garaze" id="B724630C-4C11-F3A3-87FA-76F799307CFB">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 23:55:56 UTC</createdTime>
+<generatorID>690ACDC8-49A8-A32A-1BE3-EB45CF5866DB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FFA9204E-C59C-5177-9272-EB4113C706DE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5036E6E-7F75-87A3-4F06-4BAD8A36746C" name="Zamestnanec PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:06:08 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9364736-F936-EA6E-6882-F6E7FA0A3D9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

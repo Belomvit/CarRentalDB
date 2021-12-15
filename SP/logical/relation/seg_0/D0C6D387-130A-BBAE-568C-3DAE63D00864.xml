@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Objednavka Zakaznik FK" directorySegmentName="seg_0" id="D0C6D387-130A-BBAE-568C-3DAE63D00864">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 20:57:11 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<sourcePk>597C804A-31DF-6393-018C-F131B7C7B752</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Zakaznik_objedna</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>322CC442-9141-3208-D2C6-EA69E6973580</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42376F7A-5242-9A83-7142-92BC89554557</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rezervace Auto FK" directorySegmentName="seg_0" id="21E105C1-3284-8126-5200-CE5DAA31C5AA">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:02:30 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<sourcePk>1E35E28B-C524-D186-2660-3544F800AC0C</sourcePk>
+<targetPk>09E909BC-EBBB-06AA-5FEC-4248C686E88C</targetPk>
+<identifying>false</identifying>
+<nameOnTarget>rezervuje_co</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D80DA3D7-D419-CF36-6232-D6F0AB05A6C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A781F82-D14A-853E-EAAE-C7280B87730D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

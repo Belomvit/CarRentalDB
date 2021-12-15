@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45065395-87C1-1067-3898-FD765456D8C9" name="Oddeleni">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 19:42:39 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Adresa oddeleni" id="1F27EEEE-D48D-0635-0273-CB0CC07004FB">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:03:10 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="282D11A8-43E8-792E-7C74-75CBE414F543" name="Oddeleni PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:03:31 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F27EEEE-D48D-0635-0273-CB0CC07004FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

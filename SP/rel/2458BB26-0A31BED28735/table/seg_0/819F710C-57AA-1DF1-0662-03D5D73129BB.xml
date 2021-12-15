@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="819F710C-57AA-1DF1-0662-03D5D73129BB" name="Rezervace">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>6A781F82-D14A-853E-EAAE-C7280B87730D</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Data" id="9C78000C-22CD-24AE-5A10-E8B08B5E37B7">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>98B5033C-2842-1A99-3639-E5C5DD8834EA</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zakaznik_Cislo_ridicskeho_prukazu" id="D2D7CB48-E136-472B-13E5-1FD97622C662">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>02BD08CA-C1A4-C3BF-5ED2-4F5BDB2D68E9</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C75A8D66-F477-A0E0-6497-0B1F60D86838" referredColumn="A5CD7B74-8449-537A-4CD4-BB00C9B6E34B"/>
+</associations>
+</Column>
+<Column name="Cislo_ridicskeho_prukazu" id="AF32B160-CD6B-D7E5-ACD9-E6D9ADD6BF30">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 22:27:03 UTC</createdTime>
+<generatorID>3ECF42B3-9AA6-26B9-C4A5-916AF9FDD282</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEA4676A-F740-7C08-76EF-69C317408F7C" name="Rezervace_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>09E909BC-EBBB-06AA-5FEC-4248C686E88C</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C78000C-22CD-24AE-5A10-E8B08B5E37B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8C7E29B-83AD-4A1C-B1DB-B6780F0FEC3A" name="Rezervace__IDXv1">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E4A78908-3BE8-3790-EC33-41BF5A306CC6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D2D7CB48-E136-472B-13E5-1FD97622C662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E2AB77E-A8FE-A160-E57C-AB561014E812" name="Rezervace_Zakaznik_FK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<generatorID>E4A78908-3BE8-3790-EC33-41BF5A306CC6</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2D7CB48-E136-472B-13E5-1FD97622C662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="965F6C5A-1B84-F177-B0B8-DAEC08C728C3" name="Rezervace_Auto_FK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>21E105C1-3284-8126-5200-CE5DAA31C5AA</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

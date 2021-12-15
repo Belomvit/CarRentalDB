@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zamestnanec_ridi_nebo_dodava_auto" directorySegmentName="seg_0" id="3F6835D3-CB46-0577-0EEC-FC4B2E77421B">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 00:02:58 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<targetPk>E5036E6E-7F75-87A3-4F06-4BAD8A36746C</targetPk>
+<identifying>false</identifying>
+<nameOnTarget>Ridi_nebo_dodava_auto_v</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>42376F7A-5242-9A83-7142-92BC89554557</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>826B5ABE-326E-DB56-3995-933812525319</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43B54A74-7314-3EEC-6E11-63F2C210FE07" name="Auto_v_objednavce">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Auto_ID" id="3D74CE86-BFC0-524B-3B8F-761F4982F4BE">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E503F867-D699-02A4-6773-053D320F51AC" referredColumn="7659B02A-9F5E-5552-5347-FBCDADDF148D"/>
+</associations>
+</Column>
+<Column name="Auto_Statni_poznavaci_znacka" id="F320B537-BFFA-A234-32F4-42BF7005D26C">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E503F867-D699-02A4-6773-053D320F51AC" referredColumn="940A8CFB-A341-61A5-1EC1-DB55246ABA59"/>
+</associations>
+</Column>
+<Column name="Auto_Garaz_Garage_ID" id="91C82130-1BAE-9B67-34E5-4905E87A816F">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E503F867-D699-02A4-6773-053D320F51AC" referredColumn="150002F4-2FCE-9CA9-4F98-64068637E0BA"/>
+</associations>
+</Column>
+<Column name="Objednavka_ID_objednavky" id="F8332E40-A7C6-4976-3A3E-63972A1997E1">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDD91B92-565B-0F1B-1941-FC2189DB3328" referredColumn="0DF83AC0-4E1B-B86B-AC98-B869033734CD"/>
+</associations>
+</Column>
+<Column name="Objednavka_Oddeleni_Oddeleni_ID1" id="26B7E34D-28E5-BC63-1923-82884F0FB634">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDD91B92-565B-0F1B-1941-FC2189DB3328" referredColumn="9A4A9526-60D2-DD7A-F4BA-957434A7CFA8"/>
+</associations>
+</Column>
+<Column name="Objednavka_Zakaznik_Cislo_ridicskeho_prukazu" id="913E8554-AB14-C5C9-C5B6-7BA6621D31D1">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDD91B92-565B-0F1B-1941-FC2189DB3328" referredColumn="FFE51143-3B0F-628C-C869-3917EEFBE48E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82EFBBB7-C7FC-2756-994D-8E61C1FC6FCB" name="Auto_v_objednavce_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D74CE86-BFC0-524B-3B8F-761F4982F4BE"/>
+<colUsage columnID="F320B537-BFFA-A234-32F4-42BF7005D26C"/>
+<colUsage columnID="91C82130-1BAE-9B67-34E5-4905E87A816F"/>
+<colUsage columnID="F8332E40-A7C6-4976-3A3E-63972A1997E1"/>
+<colUsage columnID="26B7E34D-28E5-BC63-1923-82884F0FB634"/>
+<colUsage columnID="913E8554-AB14-C5C9-C5B6-7BA6621D31D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A626C142-A304-B7CC-DC99-C212976FC587" name="FK_ASS_18">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>720379B6-3652-35B6-D9F9-F0963599EBFA</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D74CE86-BFC0-524B-3B8F-761F4982F4BE"/>
+<colUsage columnID="F320B537-BFFA-A234-32F4-42BF7005D26C"/>
+<colUsage columnID="91C82130-1BAE-9B67-34E5-4905E87A816F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA6B2FFE-637A-B8BC-0DE3-BD8A4766051E" name="FK_ASS_19">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>720379B6-3652-35B6-D9F9-F0963599EBFA</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8332E40-A7C6-4976-3A3E-63972A1997E1"/>
+<colUsage columnID="26B7E34D-28E5-BC63-1923-82884F0FB634"/>
+<colUsage columnID="913E8554-AB14-C5C9-C5B6-7BA6621D31D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

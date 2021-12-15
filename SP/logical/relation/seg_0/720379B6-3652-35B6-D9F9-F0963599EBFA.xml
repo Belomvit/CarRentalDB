@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Auto_v_objednavce" directorySegmentName="seg_0" id="720379B6-3652-35B6-D9F9-F0963599EBFA">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 23:58:17 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<sourcePk>1E35E28B-C524-D186-2660-3544F800AC0C</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>objedna_co</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D80DA3D7-D419-CF36-6232-D6F0AB05A6C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42376F7A-5242-9A83-7142-92BC89554557</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

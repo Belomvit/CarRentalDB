@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zamestnanec Garaz FK" directorySegmentName="seg_0" id="690ACDC8-49A8-A32A-1BE3-EB45CF5866DB">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:57:21 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<sourcePk>E5036E6E-7F75-87A3-4F06-4BAD8A36746C</sourcePk>
+<targetPk>A4D9D4E4-73E4-60A0-F873-D539F7D72B4A</targetPk>
+<identifying>false</identifying>
+<nameOnSource>pracuje_v</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>826B5ABE-326E-DB56-3995-933812525319</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2715166E-B140-C0C7-07AE-5EFEF804A1E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

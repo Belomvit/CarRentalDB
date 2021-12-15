@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42376F7A-5242-9A83-7142-92BC89554557" name="Objednavka">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 19:42:27 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_objednavky" id="CC6918EC-3BD8-CC65-1DED-D026558C89B3">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:02:41 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data pujcky" id="40D3BECF-AA91-DFB9-D062-E0DCF8B580F3">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 20:50:07 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data vraceni" id="396DFC4C-C9F5-5162-B158-FC0EC93D10D1">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 20:51:07 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa prevzeti" id="9E132999-868B-D802-BC49-2D314222B1C4">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 20:53:35 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cislo ridicskeho prukazu" id="ED47C486-A8D4-B85E-9AEE-B322CEAA9C94">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 20:57:27 UTC</createdTime>
+<generatorID>D0C6D387-130A-BBAE-568C-3DAE63D00864</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<referedAttribute>04A15ACF-7C4A-2C05-FCBB-DCBDC0910BAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RC" id="A432224D-1888-6710-57A4-AE943A46807E">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 16:47:55 UTC</createdTime>
+<generatorID>3F6835D3-CB46-0577-0EEC-FC4B2E77421B</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A9364736-F936-EA6E-6882-F6E7FA0A3D9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E2AADB2-53AC-A915-F31E-A14CC921AFD6" name="Objednavka PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:03:19 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC6918EC-3BD8-CC65-1DED-D026558C89B3</attributeRef>
+<attributeRef>ED47C486-A8D4-B85E-9AEE-B322CEAA9C94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1CBDA54-DE2F-1626-A607-4AA51BFB1174" name="Zamestnanec_pracuje">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zamestnanec_RC" id="038587E7-79CF-A68B-80F5-57EC7DBEE044">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2BF494E-B831-5BF1-AF46-D2E0F3847B5B" referredColumn="B708047C-0A61-19F1-8606-9704DA1320EC"/>
+</associations>
+</Column>
+<Column name="Oddeleni_Oddeleni_ID" id="26092EF9-FD31-1C88-FA56-0446C2760B7D">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8C2A603-B965-AA3E-596F-ADA9FCB493C5" referredColumn="2930FF0C-A784-FF5E-FC37-CBB0DC072F41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3593CC71-61BF-C4CE-C081-4ECC5E5D127F" name="Zamestnanec_pracuje_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038587E7-79CF-A68B-80F5-57EC7DBEE044"/>
+<colUsage columnID="26092EF9-FD31-1C88-FA56-0446C2760B7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF0D9BBC-E7DD-450A-08D7-384E813CDD87" name="FK_ASS_30">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>C63395C4-1116-FD42-05AE-FFF768C01DF0</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038587E7-79CF-A68B-80F5-57EC7DBEE044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5398F99-49F2-8789-47E8-0F9AE1EAF4A7" name="FK_ASS_31">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>C63395C4-1116-FD42-05AE-FFF768C01DF0</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26092EF9-FD31-1C88-FA56-0446C2760B7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

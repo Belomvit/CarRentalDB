@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9985FC94-1668-CD69-55D8-C57C2AD0EE14" name="Garaz_Oddeleni">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Oddeleni_Adresa_oddeleni" id="9B38CCA0-D319-6020-6CF8-B2387DA5FA16">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86758DEC-890C-3005-E41C-3917D45BEC16" referredColumn="E5F2B01F-5B8F-5221-52B3-B0AAB058FB14"/>
+</associations>
+</Column>
+<Column name="Garaz_Garage_ID" id="17DB299A-7757-7F90-5845-2E302ADA5FA4">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D0207CA-94B8-C492-3847-22A4F4A41D84" referredColumn="8C5ED14E-E36A-1B9E-7E4C-5870968066AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D209D2B3-F8C4-1FD6-50B6-1CC353712DFF" name="Garaz_Oddeleni_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B38CCA0-D319-6020-6CF8-B2387DA5FA16"/>
+<colUsage columnID="17DB299A-7757-7F90-5845-2E302ADA5FA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C9CF2E1-4367-BB50-ACDD-91AD79969464" name="FK_ASS_22">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>28AABAEE-24F3-3CC7-530F-6F811EFCA5BB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B38CCA0-D319-6020-6CF8-B2387DA5FA16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFCCE098-0FEC-D6AE-B426-8415B9870572" name="FK_ASS_23">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>28AABAEE-24F3-3CC7-530F-6F811EFCA5BB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17DB299A-7757-7F90-5845-2E302ADA5FA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Auto Garaz FK" directorySegmentName="seg_0" id="CC190AF8-8BD8-A1F6-2F69-02EC2E67B614">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:47:29 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<engineerTo>
+<item key="2458BB26-517E-A8FF-5C42-0A31BED28735" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>true</identifying>
+<nameOnSource>auto_v</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D80DA3D7-D419-CF36-6232-D6F0AB05A6C6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2715166E-B140-C0C7-07AE-5EFEF804A1E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

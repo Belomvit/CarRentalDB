@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SP" id="AE8FE747-B27D-C512-1E55-26800E9104ED" version="3.5">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 19:41:18 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AE8FE747-B27D-C512-1E55-26800E9104ED</designId>
+</OSDM_Design>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22995EE8-526E-60E4-35A1-A1D1C4202480" name="Oddeleni">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>45065395-87C1-1067-3898-FD765456D8C9</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Oddeleni_ID" id="2930FF0C-A784-FF5E-FC37-CBB0DC072F41">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 00:58:35 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Adresa_oddeleni" id="E5F2B01F-5B8F-5221-52B3-B0AAB058FB14">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>1F27EEEE-D48D-0635-0273-CB0CC07004FB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Objednavka_Objednavka_ID" id="3C1584D5-D548-2786-3356-A34E78485EB7">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA58B456-5DE0-8811-DD93-42664A600977" name="Oddeleni_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 00:58:35 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2930FF0C-A784-FF5E-FC37-CBB0DC072F41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E742A8F0-1708-A1BC-DC83-A21027E61BA7" name="Oddeleni_Adresa_oddeleni_UN">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:27 UTC</createdTime>
+<generatorID>282D11A8-43E8-792E-7C74-75CBE414F543</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F2B01F-5B8F-5221-52B3-B0AAB058FB14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71AE1097-1A5E-A44D-C5C4-F733AB5F5E4B" name="Oddeleni__IDX">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-11 21:49:28 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>91A1290C-A6A4-3751-2956-2C836FBDF04F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3C1584D5-D548-2786-3356-A34E78485EB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4B5B967-C414-CEE2-0A5E-58E60C24A132" name="Garaz_Oddeleniv1">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>28AABAEE-24F3-3CC7-530F-6F811EFCA5BB</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="27F69B24-1479-3FD4-CE85-7FB766CE6BA2" name="Zamestnanec_pracuje">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>C63395C4-1116-FD42-05AE-FFF768C01DF0</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

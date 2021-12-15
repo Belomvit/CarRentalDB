@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F4B1BC8-E20E-F3AD-8383-FC88B6FC5F12" name="Rezervace_Auto_FK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Auto_ID" id="0AECE0D8-1E19-490E-86CF-60C400AEE37D">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C95694E4-ECF2-BF1F-CA2A-FAEC1FDF1EAA" referredColumn="7659B02A-9F5E-5552-5347-FBCDADDF148D"/>
+</associations>
+</Column>
+<Column name="Auto_Statni_poznavaci_znacka" id="7392535D-E61D-4464-167B-4F32C31FBE1F">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C95694E4-ECF2-BF1F-CA2A-FAEC1FDF1EAA" referredColumn="940A8CFB-A341-61A5-1EC1-DB55246ABA59"/>
+</associations>
+</Column>
+<Column name="Auto_Garaz_Garage_ID" id="3D5F4001-BDD9-3C44-22EB-FBB91057C643">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C95694E4-ECF2-BF1F-CA2A-FAEC1FDF1EAA" referredColumn="150002F4-2FCE-9CA9-4F98-64068637E0BA"/>
+</associations>
+</Column>
+<Column name="Rezervace_Data" id="35760C3C-D854-7F0E-61D4-B896D9FC98C2">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDCAA7DE-E274-F7E4-2218-E9F54C9C07FD" referredColumn="9C78000C-22CD-24AE-5A10-E8B08B5E37B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1432B28B-40F2-1C71-6547-104550A4723B" name="Rezervace_Auto_FK_PK">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<ownerDesignName>SP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AECE0D8-1E19-490E-86CF-60C400AEE37D"/>
+<colUsage columnID="7392535D-E61D-4464-167B-4F32C31FBE1F"/>
+<colUsage columnID="3D5F4001-BDD9-3C44-22EB-FBB91057C643"/>
+<colUsage columnID="35760C3C-D854-7F0E-61D4-B896D9FC98C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E33AF00F-2720-BF0E-26F2-0CDBB0E2521F" name="FK_ASS_26">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>21E105C1-3284-8126-5200-CE5DAA31C5AA</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AECE0D8-1E19-490E-86CF-60C400AEE37D"/>
+<colUsage columnID="7392535D-E61D-4464-167B-4F32C31FBE1F"/>
+<colUsage columnID="3D5F4001-BDD9-3C44-22EB-FBB91057C643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A30C921-1C74-F504-47D7-544A64642F95" name="FK_ASS_27">
+<createdBy>vit</createdBy>
+<createdTime>2016-04-12 17:52:32 UTC</createdTime>
+<generatorID>21E105C1-3284-8126-5200-CE5DAA31C5AA</generatorID>
+<ownerDesignName>SP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35760C3C-D854-7F0E-61D4-B896D9FC98C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
